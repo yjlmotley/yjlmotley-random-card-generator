@@ -37,7 +37,7 @@ window.onload = () => {
     document
       .querySelectorAll(".top-suit, .bottom-suit, .number")
       .forEach(element => {
-        element.computedStyleMap.color = isRed ? "red" : "";
+        element.style.color = isRed ? "#dc143c" : "";
       });
   }
 
