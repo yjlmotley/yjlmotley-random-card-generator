@@ -40,6 +40,8 @@ body {
     bottom: 0;
     right: 20px;
     font-size: 5rem;
+    /* might want this line below to transform the suit 180 degrees */
+    /* transform: rotate(180deg); */
   }
 }
 
